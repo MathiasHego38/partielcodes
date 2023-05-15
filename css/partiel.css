@@ -1,0 +1,27 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color: black;
+}
+.jeux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -50px;
+    background-image: url("../img/arriere-plan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card{
+    background-color: black;
+    color: white;
+}
+.couleur-or{
+    background-color: #8d8f10;
+}
